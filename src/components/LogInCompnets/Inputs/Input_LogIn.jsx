@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Input.css";
+import styles from "./styles.module.css";
 import TextInput from "./TextInput";
 
 export default function Input_LogIn() {
@@ -26,7 +26,7 @@ export default function Input_LogIn() {
 
   return (
     <>
-      <div className="controls">
+      <div className={styles.controls}>
         <TextInput
           label="Email"
           type="email"
@@ -43,8 +43,8 @@ export default function Input_LogIn() {
         />
       </div>
       {inputNotValid && <p>Password or email not valid.</p>}
-      <div className="actions">
-        <button className="button" onClick={handleLogin}>
+      <div className={styles.actions}>
+        <button className={styles.button} onClick={handleLogin}>
           Log In
         </button>
       </div>

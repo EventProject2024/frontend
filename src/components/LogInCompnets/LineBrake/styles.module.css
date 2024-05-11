@@ -1,17 +1,17 @@
-.line-with-text {
+.line_with_text {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
 
-.line-with-text .line {
+.line_with_text .line {
   flex-grow: 1;
   border: none;
   border-top: 2px solid #ccc;
   margin: 0 10px;
 }
 
-.line-with-text .heading {
+.line_with_text .heading {
   margin: 0;
 }

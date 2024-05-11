@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TextInput from "./TextInput";
-import "./Input.css";
+import styles from "./styles.module.css";
 
 export default function Input_Register({ joinAsGuest, planSelect }) {
   const [username, setUsername] = useState("");
@@ -79,7 +79,7 @@ export default function Input_Register({ joinAsGuest, planSelect }) {
 
   return (
     <>
-      <div className="controls">
+      <div className={styles.controls}>
         <TextInput
           label="Username"
           type="text"
@@ -109,11 +109,11 @@ export default function Input_Register({ joinAsGuest, planSelect }) {
           isValid={inputValidities.confirmPassword}
         />
       </div>
-      <div className="actions">
-        <button onClick={joinAsGuest} className="button">
+      <div className={styles.actions}>
+        <button onClick={joinAsGuest} className={styles.button}>
           Join as guest
         </button>
-        <button className="button" onClick={handleRegister}>
+        <button className={styles.button} onClick={handleRegister}>
           Register
         </button>
       </div>

@@ -2,11 +2,11 @@ import google_png from "../../../assets/google-logo.png";
 import twitter_png from "../../../assets/GitHub_logo.png";
 import github_png from "../../../assets/Twitter_logo.png";
 import CircularButton from "./CircularButton";
-import "./OtherLogIns.css"
+import styles from "./styles.module.css"
 
 export default function OtherLogIn({ company, children }) {
   return (
-    <div className="button-group">
+    <div className={styles.button_group}>
       <CircularButton
         imageSrc={google_png}
         altText="Button 1"

@@ -1,7 +1,7 @@
 import FormSwitch from "../FormSwitch/FormSwitch";
 import { useNavigate } from "react-router-dom";
 import CheckboxWithDescription from "./Checkbox";
-import "./PlanSelect.css"
+import styles from "./styles.module.css";
 
 const lables = {
   lable1: "Provider/Services",
@@ -19,8 +19,8 @@ export default function PlanSelect() {
   };
   return (
     <>
-      <div className="plans-container">
-        <h1 className="container-title">Select a Plan</h1>
+      <div className={styles.plans_container}>
+        <h1 className={styles.container_title}>Select a Plan</h1>
         <CheckboxWithDescription
           label={lables.lable1}
           description={lables.description1}

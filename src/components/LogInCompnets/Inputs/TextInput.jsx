@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Input.css";
+import styles from "./styles.module.css";
 
 export default function TextInput({ label, type, value, onChange, isValid }) {
   const [inputFocused, setInputFocused] = useState(false);
@@ -27,7 +27,7 @@ export default function TextInput({ label, type, value, onChange, isValid }) {
     <p>
       <input
         type={type}
-        className={isValid ? undefined : "invalid"}
+        className={isValid ? undefined : styles.invalid}
         value={value}
         onChange={handleChange}
         onFocus={handleFocus}

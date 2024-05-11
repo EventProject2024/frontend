@@ -1,11 +1,11 @@
-import "./OtherLogIns.css"
+import styles from "./styles.module.css"
 
 export default function CircularButton({ imageSrc, altText, onClick }) {
     return (
-      <button className="circular-button" onClick={onClick}>
-        <div className="button-content">
-          <img src={imageSrc} alt={altText} className="button-image" />
-        </div>
+      <button className={styles.circular_button} onClick={onClick}>
+        <div className={styles.button_content}>
+          <img src={imageSrc} alt={altText} className={styles.button_image} />
+        </div>  
       </button>
     );
   }

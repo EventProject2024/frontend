@@ -1,10 +1,10 @@
-.button-group {
+.button_group {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.circular-button {
+.circular_button {
   display: flex;
   margin-right: 1rem;
   justify-content: center;
@@ -21,15 +21,15 @@
   outline: none;
 }
 
-.circular-button:hover {
+.circular_button:hover {
   background-color: #279e86;
 }
 
-.button-image {
+.button_image {
   width: 100%;
   height: auto;
 }
 
-.circular-button:focus {
+.circular_button:focus {
   outline: none;
 }

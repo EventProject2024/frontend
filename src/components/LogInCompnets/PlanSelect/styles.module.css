@@ -1,9 +1,9 @@
 /* Checkbox styles */
-.checkbox-container {
+.checkbox_container {
   margin-bottom: 10px;
 }
 
-.checkbox-label {
+.checkbox_label {
   display: flex;
   align-items: center;
   width: 100%;
@@ -18,11 +18,11 @@
   margin-top: 1rem;
 }
 
-.checkbox-text {
+.checkbox_text {
   margin-top: 0.5px;
 }
 
-.checkbox-input[type="checkbox"] {
+.checkbox_input[type="checkbox"] {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -40,11 +40,11 @@
   border-radius: 50%;
 }
 
-.checkbox-label:hover .checkmark {
+.checkbox_label:hover .checkmark {
   background-color: #ccc;
 }
 
-.checkbox-input:checked ~ .checkmark {
+.checkbox_input:checked ~ .checkmark {
   background-color: #30c3a6;
 }
 
@@ -54,7 +54,7 @@
   display: none;
 }
 
-.checkbox-input:checked ~ .checkmark:after {
+.checkbox_input:checked ~ .checkmark:after {
   display: block;
 }
 
@@ -68,19 +68,19 @@
   transform: rotate(45deg);
 }
 
-.checkbox-description {
+.checkbox_description {
   margin-top: 1rem;
   text-align: left;
 }
 
 /* Plan select */
-.container-title {
+.container_title {
   font-size: 24px;
   font-family: "Newsreader", Arial, Helvetica, sans-serif;
   text-align: left;
 }
 
-.plans-container {
+.plans_container {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   max-width: 600px;
   margin: 10px auto;
