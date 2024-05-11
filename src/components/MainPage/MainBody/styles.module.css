@@ -1,0 +1,18 @@
+.mainbody{
+    text-align: center;
+    background-color: var(--darkgreen);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans" Arial, Helvetica, sans-serif;
+}
+.mainbody div{
+    width: 50%;
+    margin: 0 auto;
+}
+.mainbody div p{
+    font-size: 2rem;
+}

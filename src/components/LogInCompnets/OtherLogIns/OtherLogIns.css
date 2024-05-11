@@ -1,0 +1,35 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-button {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  font-weight: 600;
+  background-color: #30c3a6;
+  border: none;
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.circular-button:hover {
+  background-color: #279e86;
+}
+
+.button-image {
+  width: 100%;
+  height: auto;
+}
+
+.circular-button:focus {
+  outline: none;
+}

@@ -1,0 +1,43 @@
+.form-switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-switch-container button {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+.form-switch-guest-button {
+  background-color: transparent;
+  color: #ccc;
+}
+
+.form-switch-action-button {
+  background: #30c3a6;
+  color: #ccc;
+  margin-left: 1rem;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-switch-guest-button:hover {
+  color: #8a8a8a;
+}
+
+.form-switch-action-button:hover {
+  background-color: #279e86;
+  color: #8a8a8a;
+}
+
+.form-switch-action-button:focus,
+.form-switch-guest-button:focus {
+  outline: none;
+}

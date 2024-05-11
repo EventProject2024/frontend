@@ -1,0 +1,57 @@
+:root{
+    --opengreen: #20bc9c;
+    --darkgreen: #08342c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    position: fixed;
+    top: 0;
+    padding: 0 1rem;
+}
+ 
+nav h2{
+    font-family: 'Newsreader', 'Courier New', Courier, monospace;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+.transparentbtn{
+    color: white;
+    background-color: var(--darkgreen);
+    border: none;
+    outline: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.transparentbtn:hover{
+    background-color: white;
+    color: var(--darkgreen)
+}
+
+.colorbtn{
+    background-color: var(--opengreen);
+    color: white;
+    border: none;
+    outline: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.colorbtn:hover{
+    color: var(--opengreen);
+    background-color: white;
+}
