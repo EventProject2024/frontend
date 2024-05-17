@@ -1,0 +1,15 @@
+#loadingsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--darkgreen);
+    gap: 0.1rem;
+}
+
+.loadinganimation{
+    margin: 0 auto;
+    padding: 0;
+}
