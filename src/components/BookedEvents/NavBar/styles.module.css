@@ -1,0 +1,91 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    position: fixed;
+    top: 0;
+    padding: 0 1rem;
+}
+ 
+nav h2{
+    font-family: 'Newsreader', 'Courier New', Courier, monospace;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+.transparentbtn{
+    color: white;
+    background-color: var(--darkgreen);
+    border: none;
+    outline: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    transition: all ease-in-out 0.2s;
+}
+
+.transparentbtn:hover{
+    background-color: white;
+    color: var(--darkgreen)
+}
+
+.colorbtn{
+    background-color: var(--opengreen);
+    color: white;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    transition: all ease-in-out 0.2s;
+}
+
+.colorbtn:hover{
+    color: var(--opengreen);
+    background-color: white;
+    border-radius: 15px;
+}
+
+.colorbtn2{
+    background-color: var(--opengreen);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    transition: all ease-in-out 0.2s;
+}
+
+.colorbtn2:hover{
+    background-color: white;
+    color: var(--opengreen);
+}
+
+.colorbtn:active, .colorbtn2:active{
+    transform: scale(.8);
+    outline: none;
+}
+
+.btnLogoGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.btnLogoGroup div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btnLogoGroup div button{
+   width: 160px;
+   height: 40px;
+}

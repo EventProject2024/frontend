@@ -4,7 +4,9 @@ import MainPage from './pages/MainPage/MainPage.jsx';
 import LogInPage from './pages/LogInPage/LogInPage.jsx';
 import RegisterPage from './pages/RegisterPage/RegisterPage.jsx';
 import IsLoading from './components/isLoading/isLoading.jsx';
-import HomePage from './pages/HomePage/HomePage.jsx'
+import HomePage from './pages/HomePage/HomePage.jsx';
+import BookedEvents from './pages/BookedEvents/BookedEvents.jsx';
+import ClientSearch from './pages/ClientSearch/ClientSearch.jsx';
 function App() {
   const [loading, setLoading] = useState(true);
   const location = useLocation();
@@ -34,6 +36,8 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/home" element={<HomePage/>} />
+          <Route path="/bookedevents" element={<BookedEvents/>} />
+          <Route path="/clientsearch" element={<ClientSearch/>} />
         </Routes>)
       }
 

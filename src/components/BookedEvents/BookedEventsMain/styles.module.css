@@ -1,0 +1,32 @@
+.mainWrapper{
+    background-color: var(--opengreen);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.eventContainer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+    background-color: transparent;
+}
+
+.event{
+    background-color: #166656;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
