@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from './styles.module.css';
+import {useNavigate} from 'react-router-dom';
 function MainHome() {
+    const navigate = useNavigate();
+
+    const goToClient = () => {
+        navigate('/clientsearch');
+    }
     return (
         <div id={styles.homecontainer}>
             <div id={styles.leftWrapper}>
@@ -19,7 +25,7 @@ function MainHome() {
                 <div className={`${styles.linksParts} ${styles.secondform} ${styles.thirdColor}`}>
                     <p>What's new?</p>
                 </div>
-                <div className={`${styles.linksParts} ${styles.firstform} ${styles.secColor}`}>
+                <div className={`${styles.linksParts} ${styles.firstform} ${styles.secColor}`} onClick={goToClient}>
                     <p>Search</p>
                 </div>
                 <div className={`${styles.linksParts} ${styles.secondform} ${styles.oneColor}`}>
